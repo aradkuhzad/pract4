@@ -4,39 +4,59 @@ body {
     display: flex;
     justify-content: center;
     width: 100%;
+    font-family: "DM Sans", sans-serif;
 }
 
 header {
     position: relative;
     background-color: red;
     width: 1456px;
-    height: 148px;
+    height: 185px;
     padding: 20px 0px 80px !important;
     margin: 0 auto;
     display: flex !important;
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;
+    font-family: "DM Sans", sans-serif;
 }
 
 .header-left {
-    font-size: 2em;
-    font-weight: bold;
+    font-size: 30px;
+    cursor: pointer;
+    display: block;
+    line-height: 1.66;
+    font-weight: 500;
     color: black;
+    font-family: "DM Sans", sans-serif;
+    letter-spacing: -1.5px;
 }
 
 .header-nav {
-    display: flex;
+    box-sizing: border-box;
+
+    font-weight: 500;
+    justify-content: flex-start;
     align-items: center;
-    background-color: #ffcccc;
+    gap: 17px;
+    position: relative;
     border-radius: 50px;
-    padding: 10px 20px;
+    width: 410px;
+    height: 55px;
+    background-color: bisque;
+    padding: 20px 24px;
+    margin: -1px;
+    margin-left: 55px;
 }
 
 .header-nav a {
-    margin-right: 20px;
+    margin-right: 25px;
+    font-size: 14px;
     text-decoration: none;
+    display: inline-flex;
+    justify-content: center;
     color: black;
+    font-family: "DM Sans", sans-serif;
 }
 
 .header-nav a:last-child {
@@ -50,6 +70,7 @@ header {
     border-radius: 20px;
     padding: 10px 20px;
     cursor: pointer;
+    font-family: "DM Sans", sans-serif;
 }
 
 .container {
@@ -57,4 +78,5 @@ header {
     background-color: #4CAF50;
     width: 100%;
     height: 145px;
+    font-family: "DM Sans", sans-serif;
 }
