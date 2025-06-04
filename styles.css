@@ -34,24 +34,23 @@ header {
 
 .header-nav {
     box-sizing: border-box;
-
-    font-weight: 500;
     justify-content: flex-start;
     align-items: center;
-    gap: 17px;
+    gap: -5px;
     position: relative;
     border-radius: 50px;
-    width: 410px;
-    height: 55px;
-    background-color: bisque;
-    padding: 20px 24px;
-    margin: -1px;
-    margin-left: 55px;
+    width: 401.5px;
+    height: 59.5px;
+    background-color: rgb(255, 114, 114);
+    padding: 20px 20px;
+    margin-left: 69px;
+    margin-top: -5px;
 }
 
 .header-nav a {
     margin-right: 25px;
     font-size: 14px;
+    font-weight: 600;
     text-decoration: none;
     display: inline-flex;
     justify-content: center;
