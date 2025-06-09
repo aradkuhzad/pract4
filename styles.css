@@ -27,15 +27,27 @@
  
 
     .header-left {
+        position: relative;
         display: block;
         font-size: 30px;
         font-family: "DM Sans", sans-serif;
-        letter-spacing: -2.5px;
-        align-items: center;
-        
+        letter-spacing: -2.4px;
+        justify-content: center;
+        line-height: 1.2;
     }       
 
 
 
+    .header-button {
+        display: none;
+}
 
 
+    .menu {
+        width: 24px;
+        height: 24px;
+    }
+
+    .header-nav {
+        display: none;
+    }
