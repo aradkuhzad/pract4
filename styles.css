@@ -58,7 +58,9 @@
             flex-direction: row;
             align-items: flex-start;
             justify-content: space-between;
-
+            width: 100%;
+            max-width: 1580px;
+            padding: 20px 40px 50px;
         }
 
         .menu {
@@ -80,7 +82,6 @@
             background-color: #485C11;
             border-radius: 24px;
             color: #fff;
-            right: 20px;
         }
 
         .header-button button {
@@ -106,17 +107,77 @@
             height: 6px;
         }
 
-        .header-left{
+        .header-left {
             position: relative;
             top: 6px;
-            left: 19.5px;
             letter-spacing: -1.5px;
         }
 
-
         .header-nav {
-            display: block;
+            position: relative;
+            display: flex;
+            gap: 28px;
+            left: 35px;
+            top: -4px;
+            box-sizing: border-box;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            padding: 20px 24px;
         }
 
-
+        .header-nav a {
+            color: #000;
+            text-decoration: none;
+            font-size: 13.5px;
+            letter-spacing: 0.2px;
+            font-weight: 600;
+            white-space: pre;
+            line-height: 1.4;
+        }
     }
+
+    @media (min-width: 1200px) {
+        header {
+            padding: 20px 60px 50px;
+        }
+
+        .header-left {
+            left: -20px;
+        }
+
+        .header-button {
+            right: -20px;
+        }
+    }
+
+    @media (min-width: 1280px) {
+        header {
+            padding: 20px 80px 50px;
+        }
+
+        .header-left {
+            left: -40px;
+        }
+
+        .header-button {
+            right: -40px;
+        }
+    }
+
+    @media (min-width: 1580px) {
+        header {
+            padding: 20px 80px 50px;
+            max-width: 1580px;
+            margin: 0 auto;
+        }
+
+        .header-left {
+            left: -40px;
+        }
+
+        .header-button {
+            right: -40px;
+        }
+    }
+
