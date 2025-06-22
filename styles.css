@@ -51,6 +51,12 @@
         display: none;
     }
 
+
+
+
+
+
+
   
     @media (min-width: 800px) {  /* mobile wide */
         header {
@@ -180,4 +186,5 @@
             right: -40px;
         }
     }
+
 
