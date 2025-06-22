@@ -56,6 +56,7 @@
 
     .text-center {
         position: relative;
+        justify-content: center;
         top: 200px;
         right: 0px;
     }
