@@ -41,7 +41,7 @@
         display: none;
     }
 
-
+    
     .menu {
         width: 24px;
         height: 24px;
@@ -53,12 +53,6 @@
 
 
 
-
-    .text-center {
-        position: relative;
-        top: 200px;
-        right: 0px;
-    }
 
 
 
@@ -146,6 +140,14 @@
             white-space: pre;
             line-height: 1.4;
         }
+
+        .new-header {
+            width: 100%;
+            max-width: 1580px;
+            margin: 0 auto;
+            border-radius: 0 0 20px 20px;
+            padding: 14px 0 12px 0;
+        }
     }
 
     @media (min-width: 1200px) {
@@ -160,7 +162,23 @@
         .header-button {
             right: -20px;
         }
+
+        .new-header {
+            width: 100%;
+            max-width: 1580px;
+            margin: 0 auto;
+            padding: 14px 0 12px 0;
+        }
+
+
+        .button-header {
+            font-size: 140px;
+        }
+
     }
+
+
+
 
     @media (min-width: 1280px) {
         header {
@@ -190,6 +208,21 @@
         .header-button {
             right: -40px;
         }
+    }
+
+    .button-header {
+        position: absolute;
+        width: 100%;
+        margin: 0 auto;
+        color: #000000;
+        text-align: center;
+        font-size: 160px;
+        font-family: 'Crimson Text', serif;     
+        top: 95px;
+        right: 0px;
+        font-weight: 400;
+        letter-spacing: -8px;
+        font-style: normal;
     }
 
 
