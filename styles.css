@@ -169,16 +169,7 @@
             margin: 0 auto;
             padding: 14px 0 12px 0;
         }
-
-
-        .button-header {
-            font-size: 140px;
-        }
-
     }
-
-
-
 
     @media (min-width: 1280px) {
         header {
@@ -215,14 +206,7 @@
         width: 100%;
         margin: 0 auto;
         color: #000000;
-        text-align: center;
+        top: 200px;
         font-size: 160px;
-        font-family: 'Crimson Text', serif;     
-        top: 95px;
-        right: 0px;
-        font-weight: 400;
-        letter-spacing: -8px;
-        font-style: normal;
+        text-align: center;
     }
-
-
