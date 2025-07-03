@@ -6,6 +6,7 @@
         width: 100%;
         font-family: "DM Sans", sans-serif;
         overflow-y: scroll;
+        overflow-x: hidden;
     }
 
     header {
@@ -206,7 +207,13 @@
         width: 100%;
         margin: 0 auto;
         color: #000000;
-        top: 200px;
-        font-size: 100px;
+        top: 100px;
+        right: 1px;
+        font-size: 160px;
+        letter-spacing: -8px;
+        word-spacing: -5px;
+        font-family: "Crimson Text", serif;
         text-align: center;
+        align-items: center;
+        justify-content: center;
     }
