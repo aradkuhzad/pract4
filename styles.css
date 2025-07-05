@@ -247,8 +247,6 @@
         border-bottom-left-radius: 24px;
         display: block;
         box-sizing: border-box;
-        overflow-y: clip;
-        overflow-x: clip;
     }
 
     .image-box {
