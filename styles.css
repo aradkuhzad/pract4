@@ -230,6 +230,7 @@
         border-bottom-left-radius: 30px;
         display: block;
         box-sizing: border-box;
+        clip-path: inset(-300px 0px 0px 0px);
     }
 
     .box-image {
