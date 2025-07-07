@@ -233,21 +233,7 @@
         clip-path: inset(-300px 0px 0px 0px);
     }
 
-    .box-image {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 907px;
-        height: 644px;
-        background-color: #000;
-        border-top-right-radius: 24px;
-        border-top-left-radius: 24px;
-        border-bottom-right-radius: 24px;
-        border-bottom-left-radius: 24px;
-        display: block;
-        box-sizing: border-box;
-    }
+
 
 
 
