@@ -261,16 +261,25 @@
     }  
 
 
-    .logos-and-text {
+    .center-wrapper {
+        width: 100vw;
+        height: 362px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         position: absolute;
-        top: 100px;
+        top: 750px;
         left: 0;
-        width: 100%;
+        z-index: 2;
+        pointer-events: none;
+    }
+
+    .logos-and-text {
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: center;
-        gap: 24px; 
+        gap: auto;
+        pointer-events: auto;
     }
     
     .text-logos {
@@ -285,4 +294,6 @@
         display: flex;
         flex-direction: row;
         gap: 16px;
+        width: 100px;
+        height: 50px;
     }
