@@ -259,3 +259,30 @@
         top: 50%;
         transform: translate(-50%, -50%); 
     }  
+
+
+    .logos-and-text {
+        position: absolute;
+        top: 100px;
+        left: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 24px; 
+    }
+    
+    .text-logos {
+        position: static; 
+        font-family: "DM Sans", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+    }
+    
+    .logos {
+        position: static; 
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+    }
