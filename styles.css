@@ -289,11 +289,3 @@
         font-size: 18px;
     }
     
-    .logos {
-        position: static; 
-        display: flex;
-        flex-direction: row;
-        gap: 16px;
-        width: 100px;
-        height: 50px;
-    }
