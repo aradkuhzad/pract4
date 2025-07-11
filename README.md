@@ -12,8 +12,3 @@ The main goal of this project is to improve web design skills and experiment wit
 
 This website is a **practice project** only.  
 It is not intended for production or commercial use — just a way to learn and gain experience.
-
-
-## 📌 Note
-
-Feel free to check out the code, clone the repository, and use it for your own practice.
