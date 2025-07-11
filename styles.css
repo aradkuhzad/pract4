@@ -179,7 +179,11 @@
             height: auto; 
         }  
 
-
+        .center-wrapper {
+            width: 100vw;
+            height: 362px;
+        }
+    
 
 
     }
