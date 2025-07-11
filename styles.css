@@ -165,7 +165,7 @@
     
         .box-image {
             position: relative;
-            display: flex;
+            display: inline-block;
             width: 270px;
             height: 584px;
             top: unset;
@@ -178,6 +178,13 @@
             width: 100%;
             height: auto; 
         }  
+
+
+        .center-wrapper {
+            width: 100vw;
+            height: 362px;
+        }
+    
 
     }
 
