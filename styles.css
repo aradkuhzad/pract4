@@ -149,6 +149,36 @@
             border-radius: 0 0 20px 20px;
             padding: 14px 0 12px 0;
         }
+
+
+        
+        .button-header {
+
+        }
+        
+        .back-image {
+            display: flex;
+            width: 762.2px;
+            height: 362px;
+
+        }
+    
+        .box-image {
+            position: relative;
+            display: flex;
+            width: 270px;
+            height: 584px;
+            top: unset;
+            left: unset;
+            transform: unset;
+        }
+    
+    
+        .image-box {
+            width: 100%;
+            height: auto; 
+        }  
+
     }
 
     @media (min-width: 1200px) {
