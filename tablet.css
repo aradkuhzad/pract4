@@ -1,0 +1,129 @@
+@media (min-width: 800px) {  /* mobile wide */
+    header {
+        box-shadow: none;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 1580px;
+        padding: 20px 40px 50px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .header-button {
+        display: block;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 2px;
+        position: relative;
+        width: 127px;
+        height: 48px;
+        padding: 14px 22px;
+        background-color: #485C11;
+        border-radius: 24px;
+        color: #fff;
+    }
+
+    .header-button button {
+        background-color: transparent;
+        border: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 2px;
+    }
+
+    .header-button button span {
+        color: white;
+        font-size: 14px;
+        letter-spacing: 0.1px;
+        font-weight: 600;
+        white-space: nowrap;
+    }
+
+    .arrow-image {
+        width: 6px;
+        height: 6px;
+    }
+
+    .header-left {
+        position: relative;
+        top: 6px;
+        letter-spacing: -1.5px;
+    }
+
+    .header-nav {
+        position: relative;
+        display: flex;
+        gap: 28px;
+        left: 35px;
+        top: -4px;
+        box-sizing: border-box;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 20px 24px;
+    }
+
+    .header-nav a {
+        color: #000;
+        text-decoration: none;
+        font-size: 13.5px;
+        letter-spacing: 0.2px;
+        font-weight: 600;
+        white-space: pre;
+        line-height: 1.4;
+    }
+
+    .new-header {
+        width: 100%;
+        max-width: 1580px;
+        margin: 0 auto;
+        border-radius: 0 0 20px 20px;
+        padding: 14px 0 12px 0;
+    }
+
+
+    
+    .button-header {
+
+    }
+    
+    .back-image {
+        display: flex;
+        width: 762.2px;
+        height: 362px;
+
+    }
+
+    .box-image {
+        position: relative;
+        display: inline-block;
+        width: 270px;
+        height: 584px;
+        top: unset;
+        left: unset;
+        transform: unset;
+    }
+
+
+    .image-box {
+        width: 100%;
+        height: auto; 
+    }  
+
+
+    .center-wrapper {
+        width: 100vw;
+        height: 362px;
+    }
+
+
+}

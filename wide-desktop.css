@@ -1,0 +1,15 @@
+@media (min-width: 1580px) {
+    header {
+        padding: 20px 80px 50px;
+        max-width: 1580px;
+        margin: 0 auto;
+    }
+
+    .header-left {
+        left: -40px;
+    }
+
+    .header-button {
+        right: -40px;
+    }
+}

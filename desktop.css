@@ -1,0 +1,13 @@
+@media (min-width: 1280px) {
+    header {
+        padding: 20px 80px 50px;
+    }
+
+    .header-left {
+        left: -40px;
+    }
+
+    .header-button {
+        right: -40px;
+    }
+}
