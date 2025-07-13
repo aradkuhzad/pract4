@@ -67,8 +67,9 @@
         width: 100%;
         margin: 0 auto;
         color: #000000;
-        top: 100px;
-        right: 1px;
+        top: 112px;
+        right: 50%;
+        transform: translateX(50%);
         font-size: 76px;
         letter-spacing: -3.42px;
         font-family: "Crimson Text", serif;
@@ -86,7 +87,7 @@
         width: 767.2px;
         height: 362px;
         background-color: #8E9C78;
-        top: 305px;
+        top: 296px;
         border-top-right-radius: 30px;
         border-top-left-radius: 30px;
         border-bottom-right-radius: 30px;
