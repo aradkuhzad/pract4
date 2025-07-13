@@ -102,7 +102,7 @@
         top: 222px;
         left: 50%;
         transform: translate(-50%, -50%);
-        width: 271px;
+        width: 270px;
         height: 541.81px;
         background-color: #000;
         border-top-right-radius: 34.6622px;
@@ -115,17 +115,17 @@
 
     .top-phone {
         position: absolute;
-        width: 207px !important;
-        height: 22px !important;
+        width: 207.24px !important;
+        height: 22.19px !important;
         left: 50%;
-        top: 30px !important;
+        top: 29.9px !important;
     }
 
 
 
     .image-box img {
         width: 248px;
-        height: 521px;
+        height: 522px;
         display: block;
         position: absolute;
         top: 50%;
