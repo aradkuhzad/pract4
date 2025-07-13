@@ -91,39 +91,5 @@
     }
 
 
-    
-    .text-center {
-
-    }
-    
-    .back-image {
-        display: flex;
-        width: 762.2px;
-        height: 362px;
-
-    }
-
-    .box-image {
-        position: relative;
-        display: inline-block;
-        width: 270px;
-        height: 584px;
-        top: unset;
-        left: unset;
-        transform: unset;
-    }
-
-
-    .image-box {
-        width: 100%;
-        height: auto; 
-    }  
-
-
-    .center-wrapper {
-        width: 100vw;
-        height: 362px;
-    }
-
 
 }
