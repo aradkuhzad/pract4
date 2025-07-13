@@ -1,4 +1,13 @@
-    body {
+ @font-face {
+    font-family: "DMsans:bold",sans-serif;
+    src: url(DMSans_opsz_wght__1-english) format('woff2');
+    font-weight: bold;
+    font-style: normal;
+ }
+
+
+
+ body {
         margin: 0;
         padding: 0;
         display: flex;
@@ -18,7 +27,7 @@
         flex-direction: row;
         align-items: flex-start;
         justify-content: space-between;
-        font-family: "DM Sans", sans-serif;
+        font-family: "DM Sans:bold", sans-serif;
         border-bottom-left-radius: 20px;
         border-bottom-right-radius: 20px;
         box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 4px 0px , rgba(0, 0, 0, 0.05) 0px 2px 4px 0px;
@@ -31,7 +40,7 @@
         position: relative;
         display: block;
         font-size: 30px;
-        font-family: "DM Sans", sans-serif;
+        font-family: "DM Sans:bold", sans-serif;
         letter-spacing: -2.4px;
         justify-content: center;
         line-height: 1.2;
