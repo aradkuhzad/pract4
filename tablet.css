@@ -95,7 +95,10 @@
 
     .text-center {
         font-size: 140px;
-
+        letter-spacing: -7px;
+        justify-content: center;
+        line-height: 112px;
+        top: 150px;
     }
 
 
