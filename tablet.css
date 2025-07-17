@@ -101,11 +101,14 @@
 
     
     .back-image {
-
+        width: 720px;
+        height: 362px;
     }
 
     .box-image {
-
+        width: 676.54px;
+        height: 422.93px;
+        top: 140px;
     }
 
     .top-phone {
@@ -114,8 +117,6 @@
 
     .image-box img {
         background-image: url('img/image-tablet.png');
-
-
     }
 
 
