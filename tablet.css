@@ -94,6 +94,7 @@
 
 
     .text-center {
+        font-size: 140px;
 
     }
 
@@ -103,21 +104,37 @@
     .back-image {
         width: 720px;
         height: 362px;
+        top: 520px;
     }
 
     .box-image {
         width: 676.54px;
         height: 422.93px;
-        top: 140px;
+        top: 144px;
+        border-bottom-left-radius: 0%;
+        border-bottom-right-radius: 0%;
+        border-top-right-radius: 17.9021px;
+        border-top-left-radius: 17.9021px;
     }
 
     .top-phone {
         display: none !important;
     }
 
+
     .image-box img {
-        background-image: url('img/image-tablet.png');
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 648.75px;
+        height: 453.1px;
+        top: 240px;
+        position: relative;
+        clip-path: inset(0 0 43px 0);
+        border-radius: 11.9347px;
     }
+
+
 
 
 
