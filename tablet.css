@@ -92,4 +92,32 @@
 
 
 
+
+    .text-center {
+
+    }
+
+
+
+    
+    .back-image {
+
+    }
+
+    .box-image {
+
+    }
+
+    .top-phone {
+        display: none !important;
+    }
+
+    .image-box img {
+        background-image: url('img/image-tablet.png');
+
+
+    }
+
+
+
 }
