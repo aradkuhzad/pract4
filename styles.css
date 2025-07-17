@@ -1,9 +1,11 @@
- @font-face {
-    font-family: "DMsans:bold",sans-serif;
-    src: url(DMSans_opsz_wght__1-english) format('woff2');
-    font-weight: bold;
+@font-face {
+    font-family: "DM Sans:Bold";
     font-style: normal;
- }
+    src: url("/_woff/v2/DMSans_opsz_wght__1/DMSans_opsz_wght__1-english.woff2");
+    font-display: block;
+    unicode-range: U+0000-00A0,U+00A2-00A9,U+00AC-00AE,U+00B0-00B7,U+00B9-00BA,U+00BC-00BE,U+00D7,U+00F7,U+2000-206F,U+2074,U+20AC,U+2122,U+2190-21BB,U+2212,U+2215,U+F8FF,U+FEFF,U+FFFD
+}
+
 
 
 
@@ -27,7 +29,7 @@
         flex-direction: row;
         align-items: flex-start;
         justify-content: space-between;
-        font-family: "DM Sans:bold", sans-serif;
+        font-family: "DM Sans:bold" , sans-serif;
         border-bottom-left-radius: 20px;
         border-bottom-right-radius: 20px;
         box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 4px 0px, rgba(0, 0, 0, 0.05) 0px 2px 4px 0px; opacity: 1;

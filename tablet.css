@@ -44,7 +44,7 @@
         color: white;
         font-size: 14px;
         letter-spacing: 0.1px;
-        font-weight: 600;
+        font-weight: 400;
         white-space: nowrap;
     }
 
@@ -64,7 +64,7 @@
         display: flex;
         gap: 28px;
         left: 35px;
-        top: -4px;
+        top: -124px;
         box-sizing: border-box;
         flex-direction: row;
         justify-content: flex-start;
@@ -75,11 +75,10 @@
     .header-nav a {
         color: #000;
         text-decoration: none;
-        font-size: 13.5px;
-        letter-spacing: 0.2px;
-        font-weight: 600;
-        white-space: pre;
-        line-height: 1.4;
+        font-size: 14px;
+        letter-spacing: -0.35px;
+        font-weight: 700;
+        line-height: 19.6;
     }
 
     .new-header {
@@ -98,7 +97,7 @@
         letter-spacing: -7px;
         justify-content: center;
         line-height: 112px;
-        top: 150px;
+        top: 148px;
     }
 
 
